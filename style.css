@@ -1,0 +1,38 @@
+:root {
+    --background-color-light: #ffffff;
+    --text-color-light: #000000;
+    --background-color-dark: #333333;
+    --text-color-dark: #ffffff;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--background-color-light);
+    color: var(--text-color-light);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+}
+
+#timerDisplay {
+    font-size: 4em;
+    margin: 20px 0;
+}
+
+.controls button, .theme-selector .theme-btn {
+    margin: 0 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.theme-dark {
+    background-color: var(--background-color-dark);
+    color: var(--text-color-dark);
+}
